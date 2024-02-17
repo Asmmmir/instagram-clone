@@ -40,11 +40,11 @@ const FeedPosts = () => {
         <>
           <FeedPost
             username={"asmmmir"}
-            img="/img1.png"
-            avatar="/profilepic.png"
+            img="/instagram-clone/img1.png"
+            avatar="/instagram-clone/profilepic.png"
           />
-          <FeedPost username={"diana"} img="/img2.png" avatar="/img2.png" />
-          <FeedPost username={"asset"} img="/img3.png" avatar="/img3.png" />
+          <FeedPost username={"diana"} img="/instagram-clone/img2.png" avatar="/img2.png" />
+          <FeedPost username={"asset"} img="/instagram-clone/img3.png" avatar="/img3.png" />
         </>
       )}
     </Container>
