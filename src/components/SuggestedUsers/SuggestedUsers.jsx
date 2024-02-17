@@ -26,9 +26,9 @@ const SuggestedUsers = () => {
         </Text>
       </Flex>
 
-      <SuggestedUser name='Dan Abrahmov' followers={1739} avatar="https://bit.ly/dan-abramov" />
-      <SuggestedUser name='Ryan Florence' followers={1541} avatar="https://bit.ly/ryan-florence" />
-      <SuggestedUser name='Christian Nwamba' followers={893} avatar="https://bit.ly/code-beast" />
+      <SuggestedUser name='Dan Abrahmov' followers={1739} avatar="/instagram-clone/img1.png" />
+      <SuggestedUser name='Ryan Florence' followers={1541} avatar="/instagram-clone/img2.png" />
+      <SuggestedUser name='Christian Nwamba' followers={893} avatar="/instagram-clone/img3.png" />
 
 
       <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={'start'}>

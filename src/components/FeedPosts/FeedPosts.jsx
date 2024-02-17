@@ -24,10 +24,10 @@ const FeedPosts = () => {
         [0, 1, 2, 3].map((_, i) => (
           <VStack key={i} gap={4} alignItems={"flex-start"} mb={10}>
             <Flex gap={2}>
-              <SkeletonCircle size='10' />
+              <SkeletonCircle size="10" />
               <VStack gap={2} alignItems={"flex-start"}>
-                <Skeleton height={'10px'} w={'200px'}></Skeleton>
-                <Skeleton height={'10px'} w={'150px'}></Skeleton>
+                <Skeleton height={"10px"} w={"200px"}></Skeleton>
+                <Skeleton height={"10px"} w={"150px"}></Skeleton>
               </VStack>
             </Flex>
             <Skeleton w={"full"}>
@@ -43,8 +43,16 @@ const FeedPosts = () => {
             img="/instagram-clone/img1.png"
             avatar="/instagram-clone/profilepic.png"
           />
-          <FeedPost username={"diana"} img="/instagram-clone/img2.png" avatar="/img2.png" />
-          <FeedPost username={"asset"} img="/instagram-clone/img3.png" avatar="/img3.png" />
+          <FeedPost
+            username={"diana"}
+            img="/instagram-clone/img2.png"
+            avatar="/instagram-clone//img2.png"
+          />
+          <FeedPost
+            username={"asset"}
+            img="/instagram-clone/img3.png"
+            avatar="/instagram-clone//img3.png"
+          />
         </>
       )}
     </Container>

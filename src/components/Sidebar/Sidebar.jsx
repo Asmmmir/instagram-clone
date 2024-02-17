@@ -16,7 +16,7 @@ const Sidebar = () => {
     {
       icon: <AiFillHome size={25} />,
       text: "Home",
-      link: "/",
+      link: "/instagram-clone",
     },
     {
       icon: <SearchLogo size={25} />,
@@ -32,7 +32,7 @@ const Sidebar = () => {
     },
     {
       icon: (
-        <Avatar size={"sm"} name="Aslanbek Astamirov" src="/profilepic.png" />
+        <Avatar size={"sm"} name="Aslanbek Astamirov" src="/instagram-clone/profilepic.png" />
       ),
       text: "Profile",
       link: "/programmer",
@@ -52,7 +52,7 @@ const Sidebar = () => {
     >
       <Flex direction={"column"} gap={10} w={"full"} height={"full"}>
         <Link
-          to={"/"}
+          to={"/instagram-clone"}
           as={RouterLink}
           pl={2}
           display={{ base: "none", md: "block" }}
@@ -61,7 +61,7 @@ const Sidebar = () => {
           <InstagramLogo />
         </Link>
         <Link
-          to={"/"}
+          to={"/instagram-clone"}
           as={RouterLink}
           p={2}
           display={{ base: "block", md: "none" }}
